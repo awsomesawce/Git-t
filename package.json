@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@asciidoctor/cli": "^4.0.0",
+    "@commitlint/cli": "^19.2.1",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.2"
+  }
+}
