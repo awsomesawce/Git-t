@@ -6,6 +6,6 @@
     "update": "git submodule update --init --recursive"
   },
   "imports": {
-    "$std/":"https://deno.land/std@0.219.0/"
+    "$std/":"https://deno.land/std@0.220.1/"
   }
 }
