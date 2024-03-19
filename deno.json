@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "update": "git submodule update --init --recursive"
+  },
+  "imports": {
+    "$std/":"https://deno.land/std@0.219.0/"
+  }
+}
