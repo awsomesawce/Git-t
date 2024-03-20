@@ -6,3 +6,7 @@ channel = "stable-23_11"
 
 [deployment]
 run = ["sh", "-c", "cowsay Configure me!"]
+
+[[ports]]
+localPort = 46803
+externalPort = 80

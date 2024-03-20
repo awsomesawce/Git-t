@@ -4,6 +4,11 @@ Testing git AGAIN
 
 ## Using [Nix][nix]
 
+With [nix][nix], I basically have an almost fully working Linux env without having to use WSL2.
+**Nix** is quite special.
+
+NOTE: See [NIXNOTES](./NIXNOTES.md)
+
 ### Other markup langs
 
 - [Asciidoc][asciidoc]

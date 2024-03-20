@@ -11,7 +11,7 @@
       #pkgs.zip
       pkgs.pigz
       pkgs.bzip3
-      #pkgs.lbzip2
+      pkgs.lbzip2
       #pkgs.plzip
       #pkgs.clzip
       #pkgs.pbzip2
@@ -19,6 +19,7 @@
       pkgs.shfmt
       pkgs.shellcheck
       pkgs.shc
+      pkgs.axel
       pkgs.bashly
 
       # Git-related
@@ -32,18 +33,34 @@
       pkgs.fish
       pkgs.oh-my-posh
       pkgs.zsh
+      pkgs.zsh-completions
+      pkgs.nix-zsh-completions
+      pkgs.nix-bash-completions
       pkgs.zsh-f-sy-h
       pkgs.yash
       pkgs.nushell
-      #pkgs.nsh
+      pkgs.powershell
+      pkgs.nsh
       #pkgs.ion
       
       pkgs.jq
+      pkgs.yq-go
+      pkgs.discount
+      pkgs.mdcat
+      pkgs.mdbook
+      pkgs.xc
+      pkgs.frogmouth
+      pkgs.cmark-gfm
       pkgs.cowsay
+      pkgs.go-task
 
       # fs utils
       pkgs.fd
       pkgs.duf
+      pkgs.lf
+      pkgs.eza
+      pkgs.nimmm
+      pkgs.nnn
       pkgs.du-dust
       pkgs.dua
 
@@ -54,9 +71,9 @@
 
       # other utils
       pkgs.less
-      pkgs.lf
-      pkgs.eza
       pkgs.gh
+      pkgs.gitui
+      pkgs.git-extras
       pkgs.glab
       pkgs.python311
       #pkgs.nodePackages.lodash
