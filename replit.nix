@@ -2,6 +2,7 @@
     deps = [
       pkgs.bat
       pkgs.man
+      pkgs.gum
       
 
       # compression
@@ -20,7 +21,7 @@
       pkgs.shellcheck
       pkgs.shc
       pkgs.axel
-      pkgs.bashly
+      #pkgs.bashly
 
       # Git-related
       pkgs.gut
@@ -40,7 +41,7 @@
       pkgs.yash
       pkgs.nushell
       pkgs.powershell
-      pkgs.nsh
+      #pkgs.nsh
       #pkgs.ion
       
       pkgs.jq
@@ -49,7 +50,7 @@
       pkgs.mdcat
       pkgs.mdbook
       pkgs.xc
-      pkgs.frogmouth
+      #pkgs.frogmouth
       pkgs.cmark-gfm
       pkgs.cowsay
       pkgs.go-task
@@ -84,6 +85,6 @@
       #pkgs.nodePackages.pnpm
 
       # vscode extensions
-      pkgs.vscode-extensions.thenuprojectcontributors.vscode-nushell-lang
+      #pkgs.vscode-extensions.thenuprojectcontributors.vscode-nushell-lang
     ];
 }

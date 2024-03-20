@@ -2,7 +2,7 @@
  * @param val - The value to convert to a string.
  * @returns The string representation of the value.
  */
-export const toStr = (val: unknown): string => {
+export const toStr = (val: unknown | undefined | null): string => {
   if (val === null) {
     return 'null';
   }
