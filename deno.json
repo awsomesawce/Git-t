@@ -3,9 +3,13 @@
     "dev": "deno run --watch main.ts",
     "check": "deno check main.ts",
     "fmt": "deno fmt main.ts",
-    "update": "git submodule update --init --recursive"
+    "update": "git submodule update --init --recursive",
+    "md": "deno run --allow-read from_md.ts",
+    "smpull": "git submodule foreach git pull"
   },
   "imports": {
-    "$std/":"https://deno.land/std@0.220.1/"
+    "$std/":"https://deno.land/std@0.220.1/",
+    "$x/": "https://deno.land/x/"
+    "$esm/": "https://esm.sh/"
   }
 }

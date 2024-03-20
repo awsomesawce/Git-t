@@ -1,9 +1,8 @@
 # Git-t
+
 Testing git AGAIN
 
-## Edit
-
-**This** is an _edit_ for [markdown].
+## Using [Nix][nix]
 
 ### Other markup langs
 
@@ -21,3 +20,4 @@ if (import.meta.main) {
 [markdown]: https://markdownguide.org
 [asciidoc]: https://asciidoc.org
 [adoctor]: https://asciidoctor.org
+[nix]: https://nixos.org

@@ -13,3 +13,7 @@ if [[ -e ./_deno.bash ]]; then
 else
   echo "Deno file not found: ./_deno.bash" >&2
 fi
+
+[[ -r _ohmyposh.bash ]] && source _ohmyposh.bash || echo "Oh My Posh file not found: ./_ohmyposh.bash" >&2
+
+eval "$(oh-my-posh init bash)"

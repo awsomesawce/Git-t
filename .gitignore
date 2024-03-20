@@ -131,4 +131,4 @@ dist
 
 /.local
 
-_deno.*
+_*.*
