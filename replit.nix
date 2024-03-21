@@ -9,24 +9,33 @@
       pkgs.atool
       pkgs.ouch
       pkgs.p7zip
-      #pkgs.zip
+      pkgs.zip
       pkgs.pigz
       pkgs.bzip3
       pkgs.lbzip2
-      #pkgs.plzip
-      #pkgs.clzip
+      pkgs.plzip
+      pkgs.clzip
+      pkgs.tarlz
+      pkgs.unzip
+      pkgs.unzrip
+      pkgs.ripgrep
+      pkgs.repgrep
       #pkgs.pbzip2
       #pkgs.pax
       pkgs.shfmt
       pkgs.shellcheck
       pkgs.shc
       pkgs.axel
-      #pkgs.bashly
+      pkgs.bashly
 
       # Git-related
       pkgs.gut
       pkgs.bit
       pkgs.tig
+      pkgs.gh
+      pkgs.gitui
+      pkgs.git-extras
+      pkgs.glab
 
       # shells
       pkgs.bashInteractive
@@ -38,10 +47,12 @@
       pkgs.nix-zsh-completions
       pkgs.nix-bash-completions
       pkgs.zsh-f-sy-h
-      pkgs.yash
+      #pkgs.yash
       pkgs.nushell
-      pkgs.powershell
-      #pkgs.nsh
+      #pkgs.powershell
+      pkgs.nsh
+      pkgs.tmux
+      pkgs.tmuxp
       #pkgs.ion
       
       pkgs.jq
@@ -50,7 +61,7 @@
       pkgs.mdcat
       pkgs.mdbook
       pkgs.xc
-      #pkgs.frogmouth
+      pkgs.frogmouth
       pkgs.cmark-gfm
       pkgs.cowsay
       pkgs.go-task
@@ -72,10 +83,7 @@
 
       # other utils
       pkgs.less
-      pkgs.gh
-      pkgs.gitui
-      pkgs.git-extras
-      pkgs.glab
+      
       pkgs.python311
       #pkgs.nodePackages.lodash
       #pkgs.nodePackages.fx
