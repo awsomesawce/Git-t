@@ -132,3 +132,7 @@ dist
 /.local
 
 _*.*
+
+*.tar.*
+*.zip
+/ignore
