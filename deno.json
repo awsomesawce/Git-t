@@ -8,7 +8,7 @@
     "smpull": "git submodule foreach git pull"
   },
   "imports": {
-    "$std/":"https://deno.land/std@0.220.1/",
+    "$std/":"https://deno.land/std@0.221.0/",
     "$x/": "https://deno.land/x/"
     "$esm/": "https://esm.sh/"
   }

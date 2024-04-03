@@ -63,8 +63,11 @@
       pkgs.xc
       pkgs.frogmouth
       pkgs.cmark-gfm
+      pkgs.markdownlint-cli2
       pkgs.cowsay
       pkgs.go-task
+      pkgs.pre-commit
+      pkgs.pipx
 
       # fs utils
       pkgs.fd
