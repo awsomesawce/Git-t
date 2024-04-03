@@ -2,6 +2,8 @@
 
 Testing git AGAIN
 
+**[NixSearch][nixsearch]**
+
 ## Using [Nix][nix]
 
 With [nix][nix], I basically have an almost fully working Linux env without having to use WSL2.
@@ -22,7 +24,9 @@ if (import.meta.main) {
 }
 ```
 
+
 [markdown]: https://markdownguide.org
 [asciidoc]: https://asciidoc.org
 [adoctor]: https://asciidoctor.org
 [nix]: https://nixos.org
+[nixsearch]: https://search.nixos.org
