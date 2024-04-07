@@ -1,9 +1,11 @@
 { pkgs }: {
     deps = [
+      pkgs.pax
+      pkgs.wget
       pkgs.bat
       pkgs.man
       pkgs.gum
-      
+      pkgs.hashcat
 
       # compression
       pkgs.atool
