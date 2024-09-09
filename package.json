@@ -10,7 +10,7 @@
     "hereby": "^1.8.9",
     "husky": "^9.0.11",
     "markdownlint": "^0.34.0",
-    "markdownlint-cli2": "^0.12.1",
+    "markdownlint-cli2": "^0.14.0",
     "prettier": "^3.2.5",
     "shx": "^0.3.4",
     "sloc": "^0.3.2",
@@ -27,7 +27,7 @@
     "immutable": "^5.0.0-beta.5",
     "jsonc": "^2.0.0",
     "klaw": "^4.1.0",
-    "micromatch": "^4.0.5",
+    "micromatch": "^4.0.8",
     "shelljs": "^0.8.5",
     "tiny-glob": "^0.2.9",
     "yaml": "^2.4.1"
